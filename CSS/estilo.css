@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu-item {
+    color: white;
+    padding-left: 25px;
+
+}
+
+.container {
+    float: left;
+    display: flex;
+    white-space: nowrap;
+    /*Lo que se consigue con esto es que la palabra no se parta*/
+
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.sidebar .menu-item {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.courses{
+    max-width: 1200px;
+}
+.course{
+    width: 600px;
+    border-radius: 18px;
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+
+
+}
+.course p{
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+    -max-width: 20px;
+}
+.course img{
+    display: flex;
+    justify-content: center;
+}
+.articles{
+    display: flex;
+    text-align: center;
+    height: 300px;
+
+}
+footer{
+    text-align: center;
+    background-color: lightgrey;
+}
