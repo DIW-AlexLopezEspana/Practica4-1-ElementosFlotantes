@@ -45,14 +45,13 @@ nav .menu-item {
     border: 2px solid;
     border-color: black;
     background-color: white;
-
+    text-align: center;
 
 }
 .course p{
     display: flex;
-    text-align: center;
+
     white-space: nowrap;
-    -max-width: 20px;
 }
 .course img{
     display: flex;
