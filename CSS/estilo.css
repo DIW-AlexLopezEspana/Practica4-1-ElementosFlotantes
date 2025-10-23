@@ -1,27 +1,22 @@
 h1 {
   text-align: center;
 }
-.container {
-  flex: 1;
-}
-
 nav {
   background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
-  display: flex;
-  justify-content: center;
+  display: flex;/*Convierte el contenedor en un contenedor flexible*/
+  justify-content: center;/*centra los elementos dentro del nav*/
 }
 
 nav .menu-item {
-  color: white;
+  color: white;/*Se utiliza para que el texto sea de color blanco*/
   padding-left: 25px;
 }
 
 .sidebar {
-  background-color: black;
-  color: white;
-  flex: 1;
+  background-color: black;/*Pone de color nego al fondo del sidebar*/
+  color: white;/*Se utiliza para que el texto sea de color blanco*/
   padding: 20px;
   margin-top: 10px;
   float: left;
@@ -30,52 +25,51 @@ nav .menu-item {
 
 .sidebar .menu-item {
   padding-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: black;
+  font-size: 18px;/*Tamaño del texto*/
+  font-weight: bold;/*Para poner en negrita el texto*/
+  background-color: black;/*Para poner el color del fondo en negro*/
 }
 .courses {
-  max-width: 1700px;
-  margin: 15px;
+  max-width: 1700px;/*Tamaño maximo a lo ancho*/
+  margin: 15px;/*Margen interno del div*/
   padding-left:50px;
   float: left;
 }
 .course {
-  width: 400px;
-  border-radius: 18px;
-  padding-left: 25px;
-  margin: 10px;
-  border: 2px solid;
-  border-color: black;
-  background-color: white;
-  text-align: center;
-  float: left;
+  width: 400px;/*Tamaño establecido para el contenedor de course de forma fija*/
+  border-radius: 18px;/*Sirve para que el borde esté redondeado */
+  padding-left: 25px;/*Añade un borde interiro a la parte izquierda de 25px*/
+  padding-right: 25px;/*Añade un borde interiro a la parte derecha de 25px*/
+  margin: 10px;/*Añade un espacio exterior por todas sus partes*/
+  border: 2px solid; /*Sirve para decirle el tamaño del borde que queremos y el solid para definir que la line es continua */
+  text-align: center; /*Alineamos el contenido al centro*/
+  float: left;/*Nos permite que el contedor del curso esté flotando a la izquierda*/
 }
 .course p {
   padding: 0 20px;
-  font-size: 18px;
+  font-size: 18px;/*Tamaño del texto*/
 }
 
 .course img {
-  width: 150px;
-  height: 150px;
+  width: 150px;/*Se le establece un ancho de 150px*/
+  height: 150px;/*Se le establece una altura de 150px*/
 }
 
 .articles {
-  max-width: 1700px;
-  margin: 15px;
+  max-width: 1700px;/*Tamaño maximo a lo ancho*/
+  margin: 15px;/*Añade un espacio exterior por todas sus partes*/
   padding: 10px;
-  float: left;
+  float: left;/*Nos permite que el contedor del curso esté flotando a la izquierda*/
 }
 .articles article {
-  width: 400px;
-  margin-inline-start: 20px;
-  padding-left: 25px;
-  float: left;
+  width: 400px;/*Se le establece un ancho de 150px*/
+  margin-inline-start: 20px;/*Lo hago para que el margen empiece desde 20px*/
+  padding-left: 50px;/*Añde un borde interiro a la parte izquierda de 50px*/
+  float: left;/*Nos permite que el contedor del curso esté flotando a la izquierda*/
 }
 
 footer {
-  clear: both;
+  clear: both;/*Lo he puesto para que no se ponga este elemento encima de otros o a lado del otro */
   text-align: center;
   background-color: lightgrey;
   padding: 10px;
