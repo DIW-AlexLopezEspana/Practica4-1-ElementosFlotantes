@@ -1,69 +1,77 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 nav {
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 nav .menu-item {
-    color: white;
-    padding-left: 25px;
-
-}
-
-.container {
-    float: left;
-    display: flex;
-    white-space: nowrap;
-    /*Lo que se consigue con esto es que la palabra no se parta*/
-
+  color: white;
+  padding-left: 25px;
 }
 
 .sidebar {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    margin-top: 10px;
+  background-color: black;
+  color: white;
+
+  padding: 20px;
+  margin-top: 10px;
+  float: left;
+  height: 50%;
 }
 
 .sidebar .menu-item {
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: black;
 }
-.courses{
-    max-width: 1200px;
+.courses {
+  max-width: 1700px;
+  margin: 15px;
+  padding: 10px;
+  float: left;
 }
-.course{
-    width: 600px;
-    border-radius: 18px;
-    border: 2px solid;
-    border-color: black;
-    background-color: white;
-    text-align: center;
+.course {
+  width: 500px;
+  border-radius: 18px;
+  margin: 10px;
+  border: 2px solid;
+  border-color: black;
+  background-color: white;
+  text-align: center;
+  float: left;
+}
+.course p {
+  padding: 0 20px;
+  font-size: 18px;
+}
 
+.course img {
+  width: 150px;
+  height: 150px;
 }
-.course p{
-    display: flex;
 
-    white-space: nowrap;
+.articles {
+  max-width: 1900px;
+  margin: 15px;
+  padding: 10px;
+  float: left;
 }
-.course img{
-    display: flex;
-    justify-content: center;
+.articles article {
+  width: 400px;
+  padding-left: 160px;
+  float: left;
 }
-.articles{
-    display: flex;
-    text-align: center;
-    height: 300px;
 
-}
-footer{
-    text-align: center;
-    background-color: lightgrey;
+footer {
+  clear: both;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 10px;
 }
